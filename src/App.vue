@@ -33,7 +33,9 @@
           <ctk-date-time-picker
             v-model="value"
             :dark="darkMode"
-            inline
+            :open="true"
+            position="bottom"
+            format="YYYY-MM-DD HH:mm"
           />
         </div>
       </div>
